@@ -3,8 +3,12 @@ public class FirstProject {
     {
         FetchName fn = new FetchName();
         fn.setName("Kashish");
+        fn.setLastName("Vaish");
         String name ;
+        String lastName ;
+
         name = fn.getName();
-        System.out.println("Hello "+name);
+        lastName = fn.getLastName();
+        System.out.println("Hello "+name+" "+lastName);
     }
 }
