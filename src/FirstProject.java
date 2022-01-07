@@ -1,6 +1,10 @@
 public class FirstProject {
     public static void main(String[] args)
     {
-        System.out.println("Hello world");
+        FetchName fn = new FetchName();
+        fn.setName("Kashish");
+        String name ;
+        name = fn.getName();
+        System.out.println("Hello "+name);
     }
 }
