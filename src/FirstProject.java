@@ -9,6 +9,6 @@ public class FirstProject {
 
         name = fn.getName();
         lastName = fn.getLastName();
-        System.out.println("Hello "+name+" "+lastName);
+        System.out.println("Hello "+name+" "+lastName+" !");
     }
 }
